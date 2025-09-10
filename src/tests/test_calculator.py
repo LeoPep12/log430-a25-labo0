@@ -25,5 +25,4 @@ def test_multiplication():
 def test_division():
     my_calculator = Calculator()
     assert my_calculator.division(6, 2) == 3
-    
     assert my_calculator.division(5, 0) == "Erreur : division par zéro" 
